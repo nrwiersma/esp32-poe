@@ -19796,7 +19796,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "0.203 mm"
+	(gr_text "0.2104 mm"
 		(at 87.342857 160.845 0)
 		(layer "Cmts.User")
 		(uuid "3f59e00f-380c-40f8-ab80-7e25a2bfc2fb")
@@ -19868,7 +19868,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "0.203 mm"
+	(gr_text "0.2104 mm"
 		(at 87.342857 143.985 0)
 		(layer "Cmts.User")
 		(uuid "4da40b60-3fe6-4fb6-b533-52e0b18e393a")
@@ -20300,7 +20300,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "0.03 mm"
+	(gr_text "0.0152 mm"
 		(at 87.342857 148.2 0)
 		(layer "Cmts.User")
 		(uuid "8f574c8d-78a5-4a7f-863b-7668b13debd4")
@@ -20360,7 +20360,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "1.586 mm"
+	(gr_text "1.6062 mm"
 		(at 261.3 128.54 0)
 		(layer "Cmts.User")
 		(uuid "9aef77ba-53e3-461c-b428-4e9e65b6a300")
@@ -20372,7 +20372,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "0.2 mm / 0.2 mm"
+	(gr_text "0.15 mm / 0.127 mm"
 		(at 199.542857 137.57 0)
 		(layer "Cmts.User")
 		(uuid "9be443e4-1b52-44d0-91f3-89d86b163052")
@@ -20792,7 +20792,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "1.03 mm"
+	(gr_text "1.065 mm"
 		(at 87.342857 152.415 0)
 		(layer "Cmts.User")
 		(uuid "e338ca08-7ba7-4975-afe3-a59a5fa5a38f")
@@ -20912,7 +20912,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "0.03 mm"
+	(gr_text "0.0152 mm"
 		(at 87.342857 156.63 0)
 		(layer "Cmts.User")
 		(uuid "fe9e146f-bd1e-4700-9888-b899a0ecf234")
