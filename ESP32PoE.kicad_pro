@@ -589,7 +589,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP32PoE.step",
       "svg": "",
       "vrml": ""
     },
