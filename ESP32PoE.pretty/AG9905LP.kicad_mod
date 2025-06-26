@@ -110,22 +110,6 @@
 		(uuid "2cd967a9-dd63-4930-9544-89ca92d4cdfa")
 	)
 	(pad "4" thru_hole circle
-		(at -9.33 -5.69)
-		(size 1.8 1.8)
-		(drill 1.12)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "25aae058-978b-4ba9-88c7-7af3dff1edfc")
-	)
-	(pad "4" thru_hole circle
-		(at -6.79 -5.69)
-		(size 1.8 1.8)
-		(drill 1.12)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "cc58ee79-b03b-455f-97b7-17632f4bd580")
-	)
-	(pad "5" thru_hole circle
 		(at 6.79 -5.69)
 		(size 1.8 1.8)
 		(drill 1.12)
@@ -133,13 +117,29 @@
 		(remove_unused_layers no)
 		(uuid "65411082-2c1b-4df8-9396-0551265c185c")
 	)
-	(pad "5" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 9.33 -5.69)
 		(size 1.8 1.8)
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e0acf2d6-6090-4e7b-aa7b-7a8a1a6299dd")
+	)
+	(pad "5" thru_hole circle
+		(at -9.33 -5.69)
+		(size 1.8 1.8)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25aae058-978b-4ba9-88c7-7af3dff1edfc")
+	)
+	(pad "5" thru_hole circle
+		(at -6.79 -5.69)
+		(size 1.8 1.8)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc58ee79-b03b-455f-97b7-17632f4bd580")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/ESP32PoE.3dshapes/Ag9900LP.step"
