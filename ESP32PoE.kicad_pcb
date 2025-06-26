@@ -19325,6 +19325,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "GND"
+		(at 118.675 83.7 0)
+		(layer "B.SilkS")
+		(uuid "52cb5bb3-7600-4310-b069-3c5107c2f840")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "ESP32 PoE"
 		(at 164.9 77.4 90)
 		(layer "B.SilkS")
@@ -19518,6 +19530,18 @@
 					(xy 163.977733 89.824463) (xy 164.131423 89.612155) (xy 164.359851 89.612155)
 				)
 			)
+		)
+	)
+	(gr_text "5v"
+		(at 133.475 83.725 0)
+		(layer "B.SilkS")
+		(uuid "fc1cfa84-e68b-4015-a1e1-d57ea2e0f936")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "copper"
