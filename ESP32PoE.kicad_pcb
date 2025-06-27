@@ -15966,7 +15966,18 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "bff939ba-9b22-4179-8fc6-b743247b13d5")
+			(uuid "82a0552b-05da-4d14-b740-209693fd216e")
+		)
+		(fp_circle
+			(center -11.368254 -5.69)
+			(end -11.258254 -5.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "91f127b1-22b7-49e8-a1de-7dac7f2b078b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -18351,17 +18362,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_circle
-		(center 136.625 85.725)
-		(end 136.7 85.875)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.SilkS")
-		(uuid "30734a5e-5c50-4804-a86b-2b5c963a3e8e")
 	)
 	(gr_line
 		(start 78.795 80)

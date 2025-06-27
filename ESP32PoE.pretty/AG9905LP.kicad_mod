@@ -65,6 +65,17 @@
 		(layer "F.SilkS")
 		(uuid "7c784e99-4dfe-48e1-a987-94d754af7fb4")
 	)
+	(fp_circle
+		(center -11.368254 5.69)
+		(end -11.258254 5.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a9c82173-01da-4580-b1b0-ef022ca19148")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
