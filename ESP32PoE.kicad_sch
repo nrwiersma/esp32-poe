@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "d24e1617-e618-4b3e-afdf-d73937c6f436")
 	(paper "A4")
+	(title_block
+		(title "ESP32 PoE")
+		(rev "v0.1.0")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names
