@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "e02f5f89-fae4-45a1-a1a7-1a0ff8b53df2")
 	(paper "A4")
+	(title_block
+		(title "ESP32 PoE")
+		(rev "v0.1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
