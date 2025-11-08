@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 PoE")
-		(rev "v0.1.0")
+		(rev "v0.2.0")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -95,13 +95,13 @@
 	)
 	(bus
 		(pts
-			(xy 125.73 85.09) (xy 157.48 85.09)
+			(xy 166.37 80.01) (xy 181.61 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "163fcb3f-c025-4370-ac72-20af1e3c11dd")
+		(uuid "3e9aeb3d-057e-49dc-a36b-dc38379f14d9")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -360,13 +360,94 @@
 		)
 	)
 	(sheet
-		(at 78.74 69.85)
-		(size 46.99 36.83)
+		(at 182.88 109.22)
+		(size 46.99 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14dbaed5-54c5-41d9-8f2d-aabef6161197")
+		(property "Sheetname" "PoE"
+			(at 206.756 116.586 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.3125)
+				)
+			)
+		)
+		(property "Sheetfile" "PoE.kicad_sch"
+			(at 182.88 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32PoE"
+				(path "/d24e1617-e618-4b3e-afdf-d73937c6f436"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 129.54)
+		(size 46.99 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a619bc2-3655-4ac4-9127-4c60e5439d76")
+		(property "Sheetname" "USB"
+			(at 206.756 137.668 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.3125)
+				)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 182.88 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32PoE"
+				(path "/d24e1617-e618-4b3e-afdf-d73937c6f436"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 71.12)
+		(size 46.99 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -375,17 +456,17 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "56239d88-d3dc-4854-9748-8233e06a3deb")
-		(property "Sheetname" "ESP"
-			(at 78.74 69.1384 0)
+		(property "Sheetname" "MCU"
+			(at 141.732 88.138 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
+					(thickness 0.3125)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "ESP.kicad_sch"
-			(at 78.74 107.2646 0)
+			(at 119.38 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +475,7 @@
 			)
 		)
 		(pin "LAN{LAN}" input
-			(at 125.73 85.09 0)
+			(at 166.37 80.01 0)
 			(uuid "dd798040-54a6-4b5c-905f-a107d13194e4")
 			(effects
 				(font
@@ -406,19 +487,18 @@
 		(instances
 			(project "ESP32PoE"
 				(path "/d24e1617-e618-4b3e-afdf-d73937c6f436"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 157.48 68.58)
-		(size 46.99 38.1)
+		(at 181.61 72.39)
+		(size 46.99 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -428,16 +508,17 @@
 		)
 		(uuid "da8cc61b-41da-4aa3-bdb2-99e6965c9e33")
 		(property "Sheetname" "LAN"
-			(at 157.48 67.8684 0)
+			(at 205.994 79.248 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "LAN.kicad_sch"
-			(at 157.48 107.2646 0)
+			(at 181.61 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +527,7 @@
 			)
 		)
 		(pin "LAN{LAN}" input
-			(at 157.48 85.09 180)
+			(at 181.61 80.01 180)
 			(uuid "98e3de03-020f-434c-8ae5-e3af812b0cc5")
 			(effects
 				(font
@@ -458,7 +539,7 @@
 		(instances
 			(project "ESP32PoE"
 				(path "/d24e1617-e618-4b3e-afdf-d73937c6f436"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
